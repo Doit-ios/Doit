@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00AF5DEC827ABEB3BCCF0DAB /* Pods_Doit__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D8BFE454FC22BC018880C4 /* Pods_Doit__iOS_.framework */; };
+		2A332E2A279651DA0037ECFC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A332E29279651DA0037ECFC /* LoginView.swift */; };
+		2A332E2E279651F10037ECFC /* GoogleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A332E2D279651F10037ECFC /* GoogleDelegate.swift */; };
+		2A332E30279651FE0037ECFC /* AppleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A332E2F279651FE0037ECFC /* AppleDelegate.swift */; };
+		2A332E32279652150037ECFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A332E31279652150037ECFC /* AppDelegate.swift */; };
 		2AD6D29A27964A080091BFDC /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6D29927964A080091BFDC /* Tests_iOS.swift */; };
 		2AD6D29C27964A080091BFDC /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6D29B27964A080091BFDC /* Tests_iOSLaunchTests.swift */; };
 		2AD6D2A627964A080091BFDC /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6D2A527964A080091BFDC /* Tests_macOS.swift */; };
@@ -17,6 +22,7 @@
 		2AD6D2AC27964A080091BFDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6D28227964A060091BFDC /* ContentView.swift */; };
 		2AD6D2AD27964A080091BFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD6D28327964A080091BFDC /* Assets.xcassets */; };
 		2AD6D2AE27964A080091BFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD6D28327964A080091BFDC /* Assets.xcassets */; };
+		4369494A8616429A948354BA /* Pods_Doit__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6B438C0612DCBA55A08667 /* Pods_Doit__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A332E29279651DA0037ECFC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2A332E2D279651F10037ECFC /* GoogleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDelegate.swift; sourceTree = "<group>"; };
+		2A332E2F279651FE0037ECFC /* AppleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDelegate.swift; sourceTree = "<group>"; };
+		2A332E31279652150037ECFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A332E33279652D70037ECFC /* Doit--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Doit--iOS--Info.plist"; sourceTree = "<group>"; };
 		2AD6D28127964A060091BFDC /* DoitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoitApp.swift; sourceTree = "<group>"; };
 		2AD6D28227964A060091BFDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AD6D28327964A080091BFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +60,12 @@
 		2AD6D2A127964A080091BFDC /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD6D2A527964A080091BFDC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2AD6D2A727964A080091BFDC /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		6A42417D8CA9D06634E64AD7 /* Pods-Doit (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doit (macOS).release.xcconfig"; path = "Target Support Files/Pods-Doit (macOS)/Pods-Doit (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		833EE23FDE5F4F3B125102EF /* Pods-Doit (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doit (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Doit (iOS)/Pods-Doit (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		ED6B438C0612DCBA55A08667 /* Pods_Doit__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doit__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D8BFE454FC22BC018880C4 /* Pods_Doit__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doit__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4885F3FCBAB5A330F3B85AB /* Pods-Doit (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doit (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Doit (macOS)/Pods-Doit (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		F6F2AA42B779C6B68FDE4223 /* Pods-Doit (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doit (iOS).release.xcconfig"; path = "Target Support Files/Pods-Doit (iOS)/Pods-Doit (iOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AF5DEC827ABEB3BCCF0DAB /* Pods_Doit__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4369494A8616429A948354BA /* Pods_Doit__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,20 +102,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A332E2827964EDB0037ECFC /* haeun */ = {
+			isa = PBXGroup;
+			children = (
+				2A332E29279651DA0037ECFC /* LoginView.swift */,
+				2A332E31279652150037ECFC /* AppDelegate.swift */,
+				2A332E2D279651F10037ECFC /* GoogleDelegate.swift */,
+				2A332E2F279651FE0037ECFC /* AppleDelegate.swift */,
+			);
+			path = haeun;
+			sourceTree = "<group>";
+		};
 		2AD6D27B27964A060091BFDC = {
 			isa = PBXGroup;
 			children = (
+				2A332E33279652D70037ECFC /* Doit--iOS--Info.plist */,
 				2AD6D28027964A060091BFDC /* Shared */,
 				2AD6D28F27964A080091BFDC /* macOS */,
 				2AD6D29827964A080091BFDC /* Tests iOS */,
 				2AD6D2A427964A080091BFDC /* Tests macOS */,
 				2AD6D28927964A080091BFDC /* Products */,
+				5FD639730BFF720B6FBD3FA3 /* Pods */,
+				321348543B35C14D1255CBA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2AD6D28027964A060091BFDC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2A332E2827964EDB0037ECFC /* haeun */,
 				2AD6D28127964A060091BFDC /* DoitApp.swift */,
 				2AD6D28227964A060091BFDC /* ContentView.swift */,
 				2AD6D28327964A080091BFDC /* Assets.xcassets */,
@@ -141,6 +175,26 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		321348543B35C14D1255CBA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0D8BFE454FC22BC018880C4 /* Pods_Doit__iOS_.framework */,
+				ED6B438C0612DCBA55A08667 /* Pods_Doit__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FD639730BFF720B6FBD3FA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				833EE23FDE5F4F3B125102EF /* Pods-Doit (iOS).debug.xcconfig */,
+				F6F2AA42B779C6B68FDE4223 /* Pods-Doit (iOS).release.xcconfig */,
+				F4885F3FCBAB5A330F3B85AB /* Pods-Doit (macOS).debug.xcconfig */,
+				6A42417D8CA9D06634E64AD7 /* Pods-Doit (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AD6D2B127964A080091BFDC /* Build configuration list for PBXNativeTarget "Doit (iOS)" */;
 			buildPhases = (
+				6269B118EDB1758CB52154AE /* [CP] Check Pods Manifest.lock */,
 				2AD6D28427964A080091BFDC /* Sources */,
 				2AD6D28527964A080091BFDC /* Frameworks */,
 				2AD6D28627964A080091BFDC /* Resources */,
+				01403EC171D60F4A67FC8A08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AD6D2B427964A080091BFDC /* Build configuration list for PBXNativeTarget "Doit (macOS)" */;
 			buildPhases = (
+				40311B4F17A41416AD6A3C09 /* [CP] Check Pods Manifest.lock */,
 				2AD6D28A27964A080091BFDC /* Sources */,
 				2AD6D28B27964A080091BFDC /* Frameworks */,
 				2AD6D28C27964A080091BFDC /* Resources */,
+				4B86E49C22882163893C3854 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,11 +352,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01403EC171D60F4A67FC8A08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doit (iOS)/Pods-Doit (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doit (iOS)/Pods-Doit (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Doit (iOS)/Pods-Doit (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40311B4F17A41416AD6A3C09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doit (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B86E49C22882163893C3854 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doit (macOS)/Pods-Doit (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Doit (macOS)/Pods-Doit (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Doit (macOS)/Pods-Doit (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6269B118EDB1758CB52154AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doit (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AD6D28427964A080091BFDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A332E32279652150037ECFC /* AppDelegate.swift in Sources */,
+				2A332E30279651FE0037ECFC /* AppleDelegate.swift in Sources */,
+				2A332E2E279651F10037ECFC /* GoogleDelegate.swift in Sources */,
+				2A332E2A279651DA0037ECFC /* LoginView.swift in Sources */,
 				2AD6D2AB27964A080091BFDC /* ContentView.swift in Sources */,
 				2AD6D2A927964A080091BFDC /* DoitApp.swift in Sources */,
 			);
@@ -460,6 +603,7 @@
 		};
 		2AD6D2B227964A080091BFDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833EE23FDE5F4F3B125102EF /* Pods-Doit (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,6 +612,7 @@
 				DEVELOPMENT_TEAM = JVBAL8CV7V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Doit--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -490,6 +635,7 @@
 		};
 		2AD6D2B327964A080091BFDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F2AA42B779C6B68FDE4223 /* Pods-Doit (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,6 +644,7 @@
 				DEVELOPMENT_TEAM = JVBAL8CV7V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Doit--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -521,6 +668,7 @@
 		};
 		2AD6D2B527964A080091BFDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4885F3FCBAB5A330F3B85AB /* Pods-Doit (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -549,6 +697,7 @@
 		};
 		2AD6D2B627964A080091BFDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A42417D8CA9D06634E64AD7 /* Pods-Doit (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
