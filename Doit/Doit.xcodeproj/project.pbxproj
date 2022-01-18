@@ -23,6 +23,12 @@
 		2AD6D2AD27964A080091BFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD6D28327964A080091BFDC /* Assets.xcassets */; };
 		2AD6D2AE27964A080091BFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD6D28327964A080091BFDC /* Assets.xcassets */; };
 		4369494A8616429A948354BA /* Pods_Doit__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6B438C0612DCBA55A08667 /* Pods_Doit__macOS_.framework */; };
+		F77E995F2796719000BE9804 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E995E2796719000BE9804 /* FirstView.swift */; };
+		F77E9961279671B100BE9804 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E9960279671B100BE9804 /* CreateView.swift */; };
+		F77E9963279671BD00BE9804 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E9962279671BD00BE9804 /* SettingView.swift */; };
+		F77E9965279671C700BE9804 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E9964279671C700BE9804 /* NotificationView.swift */; };
+		F77E9967279671D100BE9804 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E9966279671D100BE9804 /* BookView.swift */; };
+		F77E996A279671F000BE9804 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = F77E9969279671F000BE9804 /* FSCalendar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +72,11 @@
 		F0D8BFE454FC22BC018880C4 /* Pods_Doit__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doit__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4885F3FCBAB5A330F3B85AB /* Pods-Doit (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doit (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Doit (macOS)/Pods-Doit (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		F6F2AA42B779C6B68FDE4223 /* Pods-Doit (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doit (iOS).release.xcconfig"; path = "Target Support Files/Pods-Doit (iOS)/Pods-Doit (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		F77E995E2796719000BE9804 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		F77E9960279671B100BE9804 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		F77E9962279671BD00BE9804 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		F77E9964279671C700BE9804 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		F77E9966279671D100BE9804 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00AF5DEC827ABEB3BCCF0DAB /* Pods_Doit__iOS_.framework in Frameworks */,
+				F77E996A279671F000BE9804 /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +142,7 @@
 		2AD6D28027964A060091BFDC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F77E995D2796716500BE9804 /* jh */,
 				2A332E2827964EDB0037ECFC /* haeun */,
 				2AD6D28127964A060091BFDC /* DoitApp.swift */,
 				2AD6D28227964A060091BFDC /* ContentView.swift */,
@@ -195,6 +208,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F77E995D2796716500BE9804 /* jh */ = {
+			isa = PBXGroup;
+			children = (
+				F77E995E2796719000BE9804 /* FirstView.swift */,
+				F77E9960279671B100BE9804 /* CreateView.swift */,
+				F77E9962279671BD00BE9804 /* SettingView.swift */,
+				F77E9964279671C700BE9804 /* NotificationView.swift */,
+				F77E9966279671D100BE9804 /* BookView.swift */,
+			);
+			path = jh;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,6 +238,9 @@
 			dependencies = (
 			);
 			name = "Doit (iOS)";
+			packageProductDependencies = (
+				F77E9969279671F000BE9804 /* FSCalendar */,
+			);
 			productName = "Doit (iOS)";
 			productReference = 2AD6D28827964A080091BFDC /* Doit.app */;
 			productType = "com.apple.product-type.application";
@@ -307,6 +335,9 @@
 				Base,
 			);
 			mainGroup = 2AD6D27B27964A060091BFDC;
+			packageReferences = (
+				F77E9968279671F000BE9804 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 2AD6D28927964A080091BFDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -438,12 +469,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77E995F2796719000BE9804 /* FirstView.swift in Sources */,
 				2A332E32279652150037ECFC /* AppDelegate.swift in Sources */,
+				F77E9961279671B100BE9804 /* CreateView.swift in Sources */,
+				F77E9963279671BD00BE9804 /* SettingView.swift in Sources */,
 				2A332E30279651FE0037ECFC /* AppleDelegate.swift in Sources */,
 				2A332E2E279651F10037ECFC /* GoogleDelegate.swift in Sources */,
 				2A332E2A279651DA0037ECFC /* LoginView.swift in Sources */,
 				2AD6D2AB27964A080091BFDC /* ContentView.swift in Sources */,
 				2AD6D2A927964A080091BFDC /* DoitApp.swift in Sources */,
+				F77E9967279671D100BE9804 /* BookView.swift in Sources */,
+				F77E9965279671C700BE9804 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +888,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F77E9968279671F000BE9804 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F77E9969279671F000BE9804 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77E9968279671F000BE9804 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2AD6D27C27964A060091BFDC /* Project object */;
 }
