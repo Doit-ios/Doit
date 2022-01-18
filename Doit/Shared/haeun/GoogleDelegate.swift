@@ -7,7 +7,7 @@
 
 import SwiftUI
 import GoogleSignIn
-
+//ㅍㅍㅍㅍ 
 class GoogleDelegate: ObservableObject {
     @State var member = UserInfo.init()    // 로그인 관련 init 파일
     
