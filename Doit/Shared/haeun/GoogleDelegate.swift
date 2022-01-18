@@ -9,7 +9,7 @@ import SwiftUI
 import GoogleSignIn
 //ㅍㅍㅍㅍ 
 class GoogleDelegate: ObservableObject {
-    @State var member = UserInfo.init()    // 로그인 관련 init 파일
+//    @State var member = UserInfo.init()    // 로그인 관련 init 파일
     
     @Published var givenName: String = ""    // google nickname
     @Published var isLoggedIn: Bool = false
@@ -31,7 +31,7 @@ class GoogleDelegate: ObservableObject {
             self.isLoggedIn = true
         }else{
             self.isLoggedIn = false
-            self.member.username = "로그인 안됨"
+//            self.member.username = "로그인 안됨"
         }
     }
     

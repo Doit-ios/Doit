@@ -13,7 +13,7 @@ import KakaoSDKUser
 
 
 class AppDelegate: ObservableObject {
-    @State var member = UserInfo.init()    // 로그인 관련 init 파일
+//    @State var member = UserInfo.init()    // 로그인 관련 init 파일
 
     // google userInfo
     func kakaocheckStatus(){

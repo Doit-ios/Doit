@@ -13,7 +13,7 @@ import GoogleSignIn
 import KakaoSDKCommon
 
 struct LoginView: View {
-    @State var member = UserInfo.init()    // 로그인 관련 init 파일
+//    @State var member = UserInfo.init()    // 로그인 관련 init 파일
     @EnvironmentObject var googledel: GoogleDelegate
     @EnvironmentObject var kakaodel: AppDelegate   // kakao AppDelegate 함수 공유
     @AppStorage("UserName") var UserName : String = UserDefaults.standard.string(forKey: "UserName") ?? ""
@@ -29,7 +29,7 @@ struct LoginView: View {
             Button(action : {
                 kakaodel.kakaocheck()
             }){
-                Image("kakaolink_btn_small")
+                Image("kakaolink_btn_small_ov")
                     .resizable()
                     .frame(width: 50, height: 50)
             }
@@ -39,7 +39,7 @@ struct LoginView: View {
             Button(action: {
                 googledel.signIn()
             }) {
-                Image("btn_google_light_normal_ios")
+                Image("btn_google_light_focus_ios")
                     .resizable()
                     .frame(width: 60, height: 60)
             }.padding()
